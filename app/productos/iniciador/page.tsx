@@ -11,7 +11,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-export default function AdaptadoresPage() {
+export default function IniciadorPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-1">
@@ -20,17 +20,16 @@ export default function AdaptadoresPage() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="space-y-4">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
-                  Adaptadores CP, AA y Carbitlink
+                  Iniciador portátil para carro
                 </h1>
                 <p className="text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Convierte tu experiencia de manejo en una experiencia
-                  completamente inalámbrica
+                  Solución de emergencia confiable para cuando tu batería falle
                 </p>
               </div>
               <div className="mx-auto w-full max-w-[500px] aspect-video relative rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/carplay-adapter.jpg"
-                  alt="Adaptadores CP, AA y Carbitlink"
+                  src="/images/iniciador.jpg"
+                  alt="Iniciador portátil para carro"
                   width={800}
                   height={500}
                   className="object-cover"
@@ -45,17 +44,17 @@ export default function AdaptadoresPage() {
             <div className="mx-auto grid max-w-5xl gap-8">
               <Card>
                 <CardHeader>
-                  <CardTitle>Adaptador Carplay/Android Auto</CardTitle>
+                  <CardTitle>Iniciador Portátil de Alta Potencia</CardTitle>
                   <CardDescription>
-                    Conectividad inalámbrica para tu vehículo
+                    Energía de emergencia cuando la necesites
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-4 md:grid-cols-2 items-center">
                     <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
                       <Image
-                        src="/images/carplay-adapter.jpg"
-                        alt="Adaptador Carplay/Android Auto"
+                        src="/images/iniciador.jpg"
+                        alt="Iniciador Portátil de Alta Potencia"
                         width={500}
                         height={300}
                         className="object-cover h-full w-full"
@@ -63,16 +62,21 @@ export default function AdaptadoresPage() {
                     </div>
                     <div className="space-y-4">
                       <p>
-                        Convierte tu experiencia de manejo en una experiencia
-                        completamente inalámbrica. Si tu vehículo cuenta con CP
-                        o AA por cable, este dispositivo te permite hacer uso de
-                        forma inalámbrica.
+                        Nuestro iniciador portátil de alta potencia es la
+                        solución perfecta para emergencias cuando tu batería
+                        falle. Con 2000 amperes pico, este dispositivo compacto
+                        puede arrancar incluso los motores más grandes. La
+                        batería de litio de larga duración te dará la
+                        tranquilidad de saber que siempre tendrás una solución a
+                        mano.
                       </p>
                       <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>Conexión inalámbrica instantánea</li>
-                        <li>Compatible con iOS y Android</li>
-                        <li>Fácil instalación</li>
-                        <li>Sin retrasos en la transmisión</li>
+                        <li>2000 amperes pico</li>
+                        <li>Batería de litio de larga duración</li>
+                        <li>Pantalla LED para monitoreo</li>
+                        <li>Protección contra sobrecarga</li>
+                        <li>Diseño compacto y portátil</li>
+                        <li>Compatible con la mayoría de vehículos</li>
                       </ul>
                     </div>
                   </div>
@@ -85,17 +89,17 @@ export default function AdaptadoresPage() {
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>Adaptador para interfaz Carbitlink</CardTitle>
+                  <CardTitle>Kit Completo de Accesorios</CardTitle>
                   <CardDescription>
-                    Conecta tu dispositivo móvil a través de Carbitlink
+                    Todo lo que necesitas para emergencias
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-4 md:grid-cols-2 items-center">
                     <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
                       <Image
-                        src="/images/android-auto.jpg"
-                        alt="Adaptador para interfaz Carbitlink"
+                        src="/images/iniciador-kit.jpg"
+                        alt="Kit Completo de Accesorios"
                         width={500}
                         height={300}
                         className="object-cover h-full w-full"
@@ -103,16 +107,18 @@ export default function AdaptadoresPage() {
                     </div>
                     <div className="space-y-4">
                       <p>
-                        Si tu vehículo cuenta con conexión Carbitlink, este
-                        dispositivo te permitirá conectar tu dispositivo móvil
-                        para que puedas utilizar conexión por medio de
-                        Carplay/Android Auto.
+                        Nuestro kit completo incluye todos los accesorios
+                        necesarios para usar el iniciador portátil de manera
+                        efectiva y segura. Con cables de alta calidad,
+                        adaptadores universales y una funda protectora, estarás
+                        preparado para cualquier emergencia.
                       </p>
                       <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>Compatible con sistemas Carbitlink</li>
-                        <li>Integración perfecta con tu vehículo</li>
-                        <li>Mantiene todas las funciones originales</li>
-                        <li>Actualizable por USB</li>
+                        <li>Cables de arranque de alta calidad</li>
+                        <li>Adaptadores universales</li>
+                        <li>Funda protectora resistente</li>
+                        <li>Manual de usuario detallado</li>
+                        <li>Garantía extendida</li>
                       </ul>
                     </div>
                   </div>
@@ -125,17 +131,15 @@ export default function AdaptadoresPage() {
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>Adaptador Carplay Box</CardTitle>
-                  <CardDescription>
-                    Expande las capacidades de tu sistema Carplay
-                  </CardDescription>
+                  <CardTitle>Funciones Adicionales</CardTitle>
+                  <CardDescription>Más que solo un iniciador</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-4 md:grid-cols-2 items-center">
                     <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
                       <Image
-                        src="/images/carplay-box.jpg"
-                        alt="Adaptador Carplay Box"
+                        src="/images/iniciador-funciones.jpg"
+                        alt="Funciones Adicionales"
                         width={500}
                         height={300}
                         className="object-cover h-full w-full"
@@ -143,18 +147,19 @@ export default function AdaptadoresPage() {
                     </div>
                     <div className="space-y-4">
                       <p>
-                        ¿Tu vehículo cuenta con Carplay? Entonces con este
-                        dispositivo podrás conectarte de forma adicional Android
-                        Auto y lo que es mejor, podrás descargar tus
-                        aplicaciones de streaming favoritas por medio de la App
-                        Store. Por si fuera poco, cuenta con entrada HDMI para
-                        conectar tu dispositivo Roku, Chromecast y más.
+                        Nuestro iniciador portátil no solo arranca tu vehículo,
+                        también ofrece funciones adicionales que lo convierten
+                        en una herramienta versátil para cualquier situación.
+                        Desde cargar dispositivos hasta iluminar tu camino, este
+                        dispositivo es un compañero esencial para cualquier
+                        conductor.
                       </p>
                       <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>Añade soporte para Android Auto</li>
-                        <li>Acceso a aplicaciones de streaming</li>
-                        <li>Entrada HDMI para dispositivos externos</li>
-                        <li>Interfaz intuitiva y fácil de usar</li>
+                        <li>Puertos USB para cargar dispositivos</li>
+                        <li>Linterna LED integrada</li>
+                        <li>Indicador de nivel de batería</li>
+                        <li>Modo de ahorro de energía</li>
+                        <li>Diseño resistente al agua y golpes</li>
                       </ul>
                     </div>
                   </div>

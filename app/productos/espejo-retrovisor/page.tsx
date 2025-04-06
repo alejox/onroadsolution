@@ -11,7 +11,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-export default function AdaptadoresPage() {
+export default function EspejoRetrovisorPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-1">
@@ -20,17 +20,17 @@ export default function AdaptadoresPage() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="space-y-4">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
-                  Adaptadores CP, AA y Carbitlink
+                  Espejo retrovisor con cámara
                 </h1>
                 <p className="text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Convierte tu experiencia de manejo en una experiencia
-                  completamente inalámbrica
+                  Mejora tu visibilidad y seguridad con nuestro espejo
+                  retrovisor inteligente con cámara integrada
                 </p>
               </div>
               <div className="mx-auto w-full max-w-[500px] aspect-video relative rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/carplay-adapter.jpg"
-                  alt="Adaptadores CP, AA y Carbitlink"
+                  src="/images/espejo-retrovisor.jpg"
+                  alt="Espejo retrovisor con cámara"
                   width={800}
                   height={500}
                   className="object-cover"
@@ -45,17 +45,17 @@ export default function AdaptadoresPage() {
             <div className="mx-auto grid max-w-5xl gap-8">
               <Card>
                 <CardHeader>
-                  <CardTitle>Adaptador Carplay/Android Auto</CardTitle>
+                  <CardTitle>Espejo Retrovisor Inteligente</CardTitle>
                   <CardDescription>
-                    Conectividad inalámbrica para tu vehículo
+                    Visibilidad y seguridad mejoradas
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-4 md:grid-cols-2 items-center">
                     <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
                       <Image
-                        src="/images/carplay-adapter.jpg"
-                        alt="Adaptador Carplay/Android Auto"
+                        src="/images/espejo-retrovisor.jpg"
+                        alt="Espejo Retrovisor Inteligente"
                         width={500}
                         height={300}
                         className="object-cover h-full w-full"
@@ -63,16 +63,20 @@ export default function AdaptadoresPage() {
                     </div>
                     <div className="space-y-4">
                       <p>
-                        Convierte tu experiencia de manejo en una experiencia
-                        completamente inalámbrica. Si tu vehículo cuenta con CP
-                        o AA por cable, este dispositivo te permite hacer uso de
-                        forma inalámbrica.
+                        Nuestro espejo retrovisor inteligente con cámara
+                        integrada te ofrece una visibilidad excepcional y
+                        funciones avanzadas de seguridad. Con una pantalla de
+                        alta resolución y cámara de visión trasera, podrás ver
+                        claramente lo que hay detrás de tu vehículo, incluso en
+                        condiciones de poca luz.
                       </p>
                       <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>Conexión inalámbrica instantánea</li>
-                        <li>Compatible con iOS y Android</li>
-                        <li>Fácil instalación</li>
-                        <li>Sin retrasos en la transmisión</li>
+                        <li>Pantalla de 9.35 pulgadas</li>
+                        <li>Resolución HD 1920x480</li>
+                        <li>Cámara de visión trasera de alta calidad</li>
+                        <li>Modo nocturno automático</li>
+                        <li>Sensor de lluvia</li>
+                        <li>Detección de objetos en movimiento</li>
                       </ul>
                     </div>
                   </div>
@@ -85,17 +89,17 @@ export default function AdaptadoresPage() {
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>Adaptador para interfaz Carbitlink</CardTitle>
+                  <CardTitle>Kit de Instalación Completo</CardTitle>
                   <CardDescription>
-                    Conecta tu dispositivo móvil a través de Carbitlink
+                    Fácil instalación en cualquier vehículo
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-4 md:grid-cols-2 items-center">
                     <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
                       <Image
-                        src="/images/android-auto.jpg"
-                        alt="Adaptador para interfaz Carbitlink"
+                        src="/images/espejo-instalacion.jpg"
+                        alt="Kit de Instalación Completo"
                         width={500}
                         height={300}
                         className="object-cover h-full w-full"
@@ -103,16 +107,19 @@ export default function AdaptadoresPage() {
                     </div>
                     <div className="space-y-4">
                       <p>
-                        Si tu vehículo cuenta con conexión Carbitlink, este
-                        dispositivo te permitirá conectar tu dispositivo móvil
-                        para que puedas utilizar conexión por medio de
-                        Carplay/Android Auto.
+                        Nuestro kit de instalación incluye todo lo necesario
+                        para montar el espejo retrovisor con cámara en tu
+                        vehículo. Con adaptadores universales y cables
+                        específicos, la instalación será sencilla y profesional,
+                        sin necesidad de modificaciones permanentes en tu
+                        vehículo.
                       </p>
                       <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>Compatible con sistemas Carbitlink</li>
-                        <li>Integración perfecta con tu vehículo</li>
-                        <li>Mantiene todas las funciones originales</li>
-                        <li>Actualizable por USB</li>
+                        <li>Adaptadores universales</li>
+                        <li>Cables de conexión específicos</li>
+                        <li>Herramientas de instalación</li>
+                        <li>Manual de instalación detallado</li>
+                        <li>Soporte técnico post-instalación</li>
                       </ul>
                     </div>
                   </div>
@@ -125,17 +132,17 @@ export default function AdaptadoresPage() {
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>Adaptador Carplay Box</CardTitle>
+                  <CardTitle>Funciones Adicionales</CardTitle>
                   <CardDescription>
-                    Expande las capacidades de tu sistema Carplay
+                    Tecnología avanzada para tu seguridad
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-4 md:grid-cols-2 items-center">
                     <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
                       <Image
-                        src="/images/carplay-box.jpg"
-                        alt="Adaptador Carplay Box"
+                        src="/images/espejo-funciones.jpg"
+                        alt="Funciones Adicionales"
                         width={500}
                         height={300}
                         className="object-cover h-full w-full"
@@ -143,18 +150,18 @@ export default function AdaptadoresPage() {
                     </div>
                     <div className="space-y-4">
                       <p>
-                        ¿Tu vehículo cuenta con Carplay? Entonces con este
-                        dispositivo podrás conectarte de forma adicional Android
-                        Auto y lo que es mejor, podrás descargar tus
-                        aplicaciones de streaming favoritas por medio de la App
-                        Store. Por si fuera poco, cuenta con entrada HDMI para
-                        conectar tu dispositivo Roku, Chromecast y más.
+                        Disfruta de funciones adicionales que mejoran tu
+                        experiencia de conducción y seguridad. Desde grabación
+                        de video hasta alertas de colisión, nuestro espejo
+                        retrovisor inteligente te ofrece tranquilidad en cada
+                        viaje.
                       </p>
                       <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>Añade soporte para Android Auto</li>
-                        <li>Acceso a aplicaciones de streaming</li>
-                        <li>Entrada HDMI para dispositivos externos</li>
-                        <li>Interfaz intuitiva y fácil de usar</li>
+                        <li>Grabación de video en bucle</li>
+                        <li>Alerta de colisión trasera</li>
+                        <li>Modo dividido para múltiples cámaras</li>
+                        <li>Guía de estacionamiento</li>
+                        <li>Conectividad Bluetooth</li>
                       </ul>
                     </div>
                   </div>

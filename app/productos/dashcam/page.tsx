@@ -1,28 +1,36 @@
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 export default function DashcamPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-1">
-        <section className="py-12 md:py-24 lg:py-32 bg-gradient-to-r from-gray-50 to-gray-100">
+        <section className="py-12 md:py-24 lg:py-32 bg-black">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="space-y-4">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Cámara de tablero (Dashcam)
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
+                  Dashcam
                 </h1>
-                <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Seguridad y tranquilidad en cada viaje
+                <p className="text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Registra cada momento de tu viaje con nuestra dashcam de alta
+                  calidad y resolución
                 </p>
               </div>
               <div className="mx-auto w-full max-w-[500px] aspect-video relative rounded-xl overflow-hidden shadow-xl">
                 <Image
                   src="/images/dashcam.jpg"
-                  alt="Cámara de tablero (Dashcam)"
+                  alt="Dashcam"
                   width={800}
                   height={500}
                   className="object-cover"
@@ -37,15 +45,17 @@ export default function DashcamPage() {
             <div className="mx-auto grid max-w-5xl gap-8">
               <Card>
                 <CardHeader>
-                  <CardTitle>Cámara de tablero (Dashcam)</CardTitle>
-                  <CardDescription>Grabación continua para tu seguridad</CardDescription>
+                  <CardTitle>Dashcam de Alta Resolución</CardTitle>
+                  <CardDescription>
+                    Seguridad y calidad en cada viaje
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-4 md:grid-cols-2 items-center">
                     <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
                       <Image
                         src="/images/dashcam.jpg"
-                        alt="Cámara de tablero (Dashcam)"
+                        alt="Dashcam de Alta Resolución"
                         width={500}
                         height={300}
                         className="object-cover h-full w-full"
@@ -53,16 +63,19 @@ export default function DashcamPage() {
                     </div>
                     <div className="space-y-4">
                       <p>
-                        La inseguridad de la ciudad o un choque inesperado no se eligen, pero si puedes elegir la mejor
-                        forma de monitorearlo. Con nuestras cámaras de tablero siempre tendrás las pruebas necesarias,
-                        lo que se traduce en seguridad para ti y la comunidad.
+                        Nuestra dashcam de alta resolución te ofrece la mejor
+                        calidad de video para registrar cada momento de tu
+                        viaje. Con una cámara de 4K y visión nocturna, podrás
+                        capturar todos los detalles importantes, incluso en
+                        condiciones de poca luz.
                       </p>
                       <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>Grabación en alta definición</li>
-                        <li>Visión nocturna avanzada</li>
-                        <li>Detección de impactos</li>
-                        <li>Grabación en bucle automática</li>
-                        <li>Fácil instalación y uso</li>
+                        <li>Resolución 4K Ultra HD</li>
+                        <li>Visión nocturna de alta calidad</li>
+                        <li>Sensor de movimiento</li>
+                        <li>Grabación en bucle</li>
+                        <li>GPS integrado</li>
+                        <li>WiFi para transferencia de archivos</li>
                       </ul>
                     </div>
                   </div>
@@ -73,36 +86,93 @@ export default function DashcamPage() {
                   </Link>
                 </CardFooter>
               </Card>
-              <div className="space-y-4">
-                <h2 className="text-2xl font-bold">¿Por qué necesitas una dashcam?</h2>
-                <div className="grid gap-6 md:grid-cols-3">
-                  <div className="space-y-2">
-                    <h3 className="text-lg font-semibold">Evidencia en accidentes</h3>
-                    <p className="text-sm text-gray-500">
-                      Proporciona pruebas claras de lo sucedido en caso de accidentes de tráfico, facilitando los
-                      trámites con seguros.
-                    </p>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Kit de Instalación Profesional</CardTitle>
+                  <CardDescription>
+                    Instalación segura y discreta
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="grid gap-4 md:grid-cols-2 items-center">
+                    <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
+                      <Image
+                        src="/images/dashcam-installation.jpg"
+                        alt="Kit de Instalación Profesional"
+                        width={500}
+                        height={300}
+                        className="object-cover h-full w-full"
+                      />
+                    </div>
+                    <div className="space-y-4">
+                      <p>
+                        Nuestro kit de instalación profesional incluye todo lo
+                        necesario para montar la dashcam de forma segura y
+                        discreta en tu vehículo. Con cables ocultos y soportes
+                        ajustables, la instalación será limpia y profesional.
+                      </p>
+                      <ul className="list-disc list-inside space-y-2 text-sm">
+                        <li>Cables de alimentación ocultos</li>
+                        <li>Soportes ajustables</li>
+                        <li>Kit de cableado profesional</li>
+                        <li>Manual de instalación detallado</li>
+                        <li>Garantía de instalación</li>
+                      </ul>
+                    </div>
                   </div>
-                  <div className="space-y-2">
-                    <h3 className="text-lg font-semibold">Seguridad personal</h3>
-                    <p className="text-sm text-gray-500">
-                      Disuade a posibles delincuentes y documenta cualquier incidente de seguridad que pueda ocurrir.
-                    </p>
+                </CardContent>
+                <CardFooter>
+                  <Link href="/contacto">
+                    <Button>Solicitar información</Button>
+                  </Link>
+                </CardFooter>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Funciones de Seguridad</CardTitle>
+                  <CardDescription>
+                    Protección total para tu vehículo
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="grid gap-4 md:grid-cols-2 items-center">
+                    <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
+                      <Image
+                        src="/images/dashcam-features.jpg"
+                        alt="Funciones de Seguridad"
+                        width={500}
+                        height={300}
+                        className="object-cover h-full w-full"
+                      />
+                    </div>
+                    <div className="space-y-4">
+                      <p>
+                        Disfruta de funciones avanzadas de seguridad que te
+                        ayudarán a proteger tu vehículo y documentar cualquier
+                        incidente. Desde detección de colisiones hasta grabación
+                        automática, nuestra dashcam te ofrece tranquilidad en
+                        cada viaje.
+                      </p>
+                      <ul className="list-disc list-inside space-y-2 text-sm">
+                        <li>Detección de colisiones</li>
+                        <li>Grabación automática en caso de impacto</li>
+                        <li>Modo de estacionamiento</li>
+                        <li>Alerta de carril</li>
+                        <li>Advertencia de distancia</li>
+                      </ul>
+                    </div>
                   </div>
-                  <div className="space-y-2">
-                    <h3 className="text-lg font-semibold">Monitoreo de flotillas</h3>
-                    <p className="text-sm text-gray-500">
-                      Ideal para empresas que necesitan supervisar el uso de sus vehículos y garantizar la seguridad de
-                      sus conductores.
-                    </p>
-                  </div>
-                </div>
-              </div>
+                </CardContent>
+                <CardFooter>
+                  <Link href="/contacto">
+                    <Button>Solicitar información</Button>
+                  </Link>
+                </CardFooter>
+              </Card>
             </div>
           </div>
         </section>
       </main>
     </div>
-  )
+  );
 }
-
