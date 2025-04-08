@@ -71,7 +71,6 @@ export default function IniciadorPage() {
                         mano.
                       </p>
                       <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>2000 amperes pico</li>
                         <li>Batería de litio de larga duración</li>
                         <li>Pantalla LED para monitoreo</li>
                         <li>Protección contra sobrecarga</li>
@@ -118,48 +117,6 @@ export default function IniciadorPage() {
                         <li>Adaptadores universales</li>
                         <li>Funda protectora resistente</li>
                         <li>Manual de usuario detallado</li>
-                        <li>Garantía extendida</li>
-                      </ul>
-                    </div>
-                  </div>
-                </CardContent>
-                <CardFooter>
-                  <Link href="/contacto">
-                    <Button>Solicitar información</Button>
-                  </Link>
-                </CardFooter>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <CardTitle>Funciones Adicionales</CardTitle>
-                  <CardDescription>Más que solo un iniciador</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid gap-4 md:grid-cols-2 items-center">
-                    <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
-                      <Image
-                        src="/images/iniciador-funciones.jpg"
-                        alt="Funciones Adicionales"
-                        width={500}
-                        height={300}
-                        className="object-cover h-full w-full"
-                      />
-                    </div>
-                    <div className="space-y-4">
-                      <p>
-                        Nuestro iniciador portátil no solo arranca tu vehículo,
-                        también ofrece funciones adicionales que lo convierten
-                        en una herramienta versátil para cualquier situación.
-                        Desde cargar dispositivos hasta iluminar tu camino, este
-                        dispositivo es un compañero esencial para cualquier
-                        conductor.
-                      </p>
-                      <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>Puertos USB para cargar dispositivos</li>
-                        <li>Linterna LED integrada</li>
-                        <li>Indicador de nivel de batería</li>
-                        <li>Modo de ahorro de energía</li>
-                        <li>Diseño resistente al agua y golpes</li>
                       </ul>
                     </div>
                   </div>

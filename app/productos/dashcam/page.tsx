@@ -65,7 +65,7 @@ export default function DashcamPage() {
                       <p>
                         Nuestra dashcam de alta resolución te ofrece la mejor
                         calidad de video para registrar cada momento de tu
-                        viaje. Con una cámara de 4K y visión nocturna, podrás
+                        viaje. Con una cámara de 2K y visión nocturna, podrás
                         capturar todos los detalles importantes, incluso en
                         condiciones de poca luz.
                       </p>
@@ -117,48 +117,6 @@ export default function DashcamPage() {
                         <li>Kit de cableado profesional</li>
                         <li>Manual de instalación detallado</li>
                         <li>Garantía de instalación</li>
-                      </ul>
-                    </div>
-                  </div>
-                </CardContent>
-                <CardFooter>
-                  <Link href="/contacto">
-                    <Button>Solicitar información</Button>
-                  </Link>
-                </CardFooter>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <CardTitle>Funciones de Seguridad</CardTitle>
-                  <CardDescription>
-                    Protección total para tu vehículo
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid gap-4 md:grid-cols-2 items-center">
-                    <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
-                      <Image
-                        src="/images/dashcam-features.jpg"
-                        alt="Funciones de Seguridad"
-                        width={500}
-                        height={300}
-                        className="object-cover h-full w-full"
-                      />
-                    </div>
-                    <div className="space-y-4">
-                      <p>
-                        Disfruta de funciones avanzadas de seguridad que te
-                        ayudarán a proteger tu vehículo y documentar cualquier
-                        incidente. Desde detección de colisiones hasta grabación
-                        automática, nuestra dashcam te ofrece tranquilidad en
-                        cada viaje.
-                      </p>
-                      <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>Detección de colisiones</li>
-                        <li>Grabación automática en caso de impacto</li>
-                        <li>Modo de estacionamiento</li>
-                        <li>Alerta de carril</li>
-                        <li>Advertencia de distancia</li>
                       </ul>
                     </div>
                   </div>

@@ -35,7 +35,7 @@ export default function Home() {
               </div>
               <div className="mx-auto w-full max-w-[500px] aspect-video relative rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/hero-banner.jpg"
+                  src="/hero.webp"
                   alt="OnRoad Solutions"
                   width={800}
                   height={500}
@@ -63,7 +63,7 @@ export default function Home() {
               <div className="group relative overflow-hidden rounded-lg border bg-background p-2 transition-all hover:shadow-md">
                 <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
                   <Image
-                    src="/placeholder.svg?height=300&width=500&text=Adaptador+CarPlay"
+                    src="/adaptador.png?height=300&width=500&text=Adaptador+CarPlay"
                     alt="Adaptadores CP, AA y Carbitlink"
                     width={500}
                     height={300}
@@ -88,7 +88,7 @@ export default function Home() {
               <div className="group relative overflow-hidden rounded-lg border bg-background p-2 transition-all hover:shadow-md">
                 <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
                   <Image
-                    src="/placeholder.svg?height=300&width=500&text=Pantalla+CarPlay"
+                    src="/carplay.png?height=300&width=500&text=Pantalla+CarPlay"
                     alt="Pantalla Carplay / Android Auto para carro"
                     width={500}
                     height={300}
@@ -113,11 +113,11 @@ export default function Home() {
               <div className="group relative overflow-hidden rounded-lg border bg-background p-2 transition-all hover:shadow-md">
                 <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
                   <Image
-                    src="/placeholder.svg?height=300&width=500&text=Dashcam"
+                    src="/camara.png?height=300&width=500&text=Dashcam"
                     alt="Cámara de tablero (Dashcam)"
                     width={500}
                     height={300}
-                    className="object-cover transition-all group-hover:scale-105"
+                    className="object-contain transition-all group-hover:scale-105"
                   />
                 </div>
                 <div className="p-4">
@@ -171,7 +171,7 @@ export default function Home() {
               </div>
               <div className="mx-auto w-full max-w-[500px] aspect-video relative rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/company-image.jpg"
+                  src="/company.webp"
                   alt="OnRoad Solutions Empresa"
                   width={800}
                   height={500}

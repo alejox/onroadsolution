@@ -54,7 +54,7 @@ export default function AdaptadoresPage() {
                   <div className="grid gap-4 md:grid-cols-2 items-center">
                     <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
                       <Image
-                        src="/images/carplay-adapter.jpg"
+                        src="/carplay.png"
                         alt="Adaptador Carplay/Android Auto"
                         width={500}
                         height={300}

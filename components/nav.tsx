@@ -64,13 +64,6 @@ export function Nav({ onClose }: NavProps) {
             Pantalla Carplay / Android Auto para moto
           </Link>
           <Link
-            href="/productos/entretenimiento"
-            className="block p-2 text-sm text-black hover:bg-gray-100 rounded-md"
-            onClick={handleLinkClick}
-          >
-            Entretenimiento para vehículos
-          </Link>
-          <Link
             href="/productos/baul"
             className="block p-2 text-sm text-black hover:bg-gray-100 rounded-md"
             onClick={handleLinkClick}
@@ -90,6 +83,13 @@ export function Nav({ onClose }: NavProps) {
             onClick={handleLinkClick}
           >
             Espejo retrovisor con cámara
+          </Link>
+          <Link
+            href="/productos/inflador"
+            className="block p-2 text-sm text-black hover:bg-gray-100 rounded-md"
+            onClick={handleLinkClick}
+          >
+            Inflador portátil profesional
           </Link>
           <Link
             href="/productos/iniciador"

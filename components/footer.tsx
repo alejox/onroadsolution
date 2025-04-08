@@ -29,7 +29,6 @@ export function Footer() {
           </Link>
         </div>
         <div className="flex flex-col gap-2">
-          <p className="text-sm text-gray-700">John Gil - Gerente comercial</p>
           <p className="text-sm text-gray-700">gerencia@onroadsolutions.com</p>
           <p className="text-sm text-gray-700">+57-317-404-4551</p>
         </div>

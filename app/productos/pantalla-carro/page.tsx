@@ -71,7 +71,7 @@ export default function PantallaCarroPage() {
                         segura.
                       </p>
                       <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>Pantalla táctil de 10.1 pulgadas</li>
+                        <li>Pantalla táctil de 7 y 9.3 pulgadas</li>
                         <li>Resolución HD 1280x720</li>
                         <li>Compatible con Carplay y Android Auto</li>
                         <li>Procesador de alta velocidad</li>
@@ -119,47 +119,6 @@ export default function PantallaCarroPage() {
                         <li>Interfaz de retención de funciones</li>
                         <li>Manual de instalación detallado</li>
                         <li>Soporte técnico post-instalación</li>
-                      </ul>
-                    </div>
-                  </div>
-                </CardContent>
-                <CardFooter>
-                  <Link href="/contacto">
-                    <Button>Solicitar información</Button>
-                  </Link>
-                </CardFooter>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <CardTitle>Funciones Adicionales</CardTitle>
-                  <CardDescription>
-                    Mejora tu experiencia de conducción
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid gap-4 md:grid-cols-2 items-center">
-                    <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
-                      <Image
-                        src="/images/car-features.jpg"
-                        alt="Funciones Adicionales"
-                        width={500}
-                        height={300}
-                        className="object-cover h-full w-full"
-                      />
-                    </div>
-                    <div className="space-y-4">
-                      <p>
-                        Disfruta de funciones adicionales que mejoran tu
-                        experiencia de conducción. Desde control de clima hasta
-                        monitoreo del vehículo, nuestra pantalla te ofrece todo
-                        lo que necesitas para un viaje más seguro y entretenido.
-                      </p>
-                      <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>Control de clima integrado</li>
-                        <li>Monitoreo del vehículo en tiempo real</li>
-                        <li>Modo split screen para múltiples funciones</li>
-                        <li>Ecualizador de audio personalizable</li>
-                        <li>Soporte para aplicaciones de streaming</li>
                       </ul>
                     </div>
                   </div>

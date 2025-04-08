@@ -11,7 +11,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-export default function EspejoPage() {
+export default function InfladorPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-1">
@@ -20,20 +20,20 @@ export default function EspejoPage() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="space-y-4">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
-                  Espejo retrovisor con cámara
+                  Inflador portátil profesional
                 </h1>
                 <p className="text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Mejora tu visibilidad y seguridad con un espejo retrovisor
-                  inteligente con cámara integrada
+                  Solución portátil y profesional para inflar neumáticos y otros
+                  elementos inflables
                 </p>
               </div>
-              <div className="mx-auto w-full max-w-[500px] aspect-video relative rounded-xl overflow-hidden shadow-xl">
+              <div className="mx-auto w-full max-w-[500px] aspect-video relative rounded-xl overflow-hidden shadow-xl flex items-center justify-center">
                 <Image
-                  src="/images/espejo.jpg"
-                  alt="Espejo retrovisor con cámara"
+                  src="/images/inflador.jpg"
+                  alt="Inflador portátil profesional"
                   width={800}
                   height={500}
-                  className="object-cover"
+                  className="object-cover object-center w-full h-full"
                   priority
                 />
               </div>
@@ -45,36 +45,37 @@ export default function EspejoPage() {
             <div className="mx-auto grid max-w-5xl gap-8">
               <Card>
                 <CardHeader>
-                  <CardTitle>Espejo Retrovisor Inteligente</CardTitle>
+                  <CardTitle>Inflador Portátil de Alta Presión</CardTitle>
                   <CardDescription>
-                    Visibilidad y seguridad mejoradas
+                    Potencia y precisión en un dispositivo compacto
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-4 md:grid-cols-2 items-center">
-                    <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
+                    <div className="aspect-video overflow-hidden rounded-lg bg-gray-100 flex items-center justify-center">
                       <Image
-                        src="/images/espejo.jpg"
-                        alt="Espejo Retrovisor Inteligente"
+                        src="/images/inflador.jpg"
+                        alt="Inflador Portátil de Alta Presión"
                         width={500}
                         height={300}
-                        className="object-cover h-full w-full"
+                        className="object-cover object-center w-full h-full"
                       />
                     </div>
                     <div className="space-y-4">
                       <p>
-                        Nuestro espejo retrovisor inteligente con cámara
-                        integrada te ofrece una visibilidad excepcional y mayor
-                        seguridad en la carretera. Con una pantalla de alta
-                        resolución y funciones avanzadas, podrás ver claramente
-                        lo que hay detrás de tu vehículo en cualquier condición.
+                        Nuestro inflador portátil profesional te ofrece la
+                        potencia y precisión necesarias para inflar neumáticos y
+                        otros elementos inflables. Con su diseño compacto y
+                        robusto, es la solución perfecta para emergencias y uso
+                        profesional.
                       </p>
                       <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>Resolución HD 1920x480</li>
-                        <li>Cámara trasera de alta calidad</li>
-                        <li>Modo nocturno automático</li>
-                        <li>Sensor de lluvia</li>
-                        <li>Detección de movimiento</li>
+                        <li>Alta presión de inflado</li>
+                        <li>Diseño compacto y portátil</li>
+                        <li>Batería de larga duración</li>
+                        <li>Pantalla digital de presión</li>
+                        <li>Múltiples adaptadores incluidos</li>
+                        <li>Protección contra sobrecalentamiento</li>
                       </ul>
                     </div>
                   </div>
@@ -87,37 +88,36 @@ export default function EspejoPage() {
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>Kit de Instalación Completo</CardTitle>
+                  <CardTitle>Kit de Accesorios Completo</CardTitle>
                   <CardDescription>
-                    Instalación profesional garantizada
+                    Todo lo necesario para un uso profesional
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid gap-4 md:grid-cols-2 items-center">
-                    <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
+                    <div className="aspect-video overflow-hidden rounded-lg bg-gray-100 flex items-center justify-center">
                       <Image
-                        src="/images/espejo-instalacion.jpg"
-                        alt="Kit de Instalación Completo"
+                        src="/images/inflador-accesorios.jpg"
+                        alt="Kit de Accesorios Completo"
                         width={500}
                         height={300}
-                        className="object-cover h-full w-full"
+                        className="object-cover object-center w-full h-full"
                       />
                     </div>
                     <div className="space-y-4">
                       <p>
-                        Nuestro kit de instalación completo incluye todo lo
-                        necesario para montar el espejo retrovisor inteligente
-                        en tu vehículo. Con adaptadores universales y cables de
-                        alta calidad, la instalación será limpia y profesional,
-                        manteniendo todas las funciones originales de tu
-                        vehículo.
+                        El kit incluye todos los accesorios necesarios para un
+                        uso profesional. Con adaptadores universales y
+                        herramientas específicas, podrás inflar cualquier tipo
+                        de neumático o elemento inflable con facilidad y
+                        precisión.
                       </p>
                       <ul className="list-disc list-inside space-y-2 text-sm">
                         <li>Adaptadores universales</li>
-                        <li>Cables de conexión específicos</li>
-                        <li>Herramientas de instalación</li>
-                        <li>Manual detallado</li>
-                        <li>Soporte técnico post-instalación</li>
+                        <li>Cables de carga rápida</li>
+                        <li>Maletín de transporte</li>
+                        <li>Manual de usuario detallado</li>
+                        <li>Garantía extendida</li>
                       </ul>
                     </div>
                   </div>

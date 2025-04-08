@@ -73,7 +73,7 @@ export default function PantallaMotoPage() {
                       </p>
                       <ul className="list-disc list-inside space-y-2 text-sm">
                         <li>Resistente al agua IP67</li>
-                        <li>Pantalla táctil de 7 pulgadas</li>
+                        <li>Pantalla táctil de 5 pulgadas</li>
                         <li>Brillo ajustable para visibilidad diurna</li>
                         <li>Montaje universal para motos</li>
                         <li>Control de música y llamadas</li>
@@ -120,47 +120,6 @@ export default function PantallaMotoPage() {
                         <li>Kit de montaje antivibración</li>
                         <li>Manual de instalación detallado</li>
                         <li>Garantía de instalación profesional</li>
-                      </ul>
-                    </div>
-                  </div>
-                </CardContent>
-                <CardFooter>
-                  <Link href="/contacto">
-                    <Button>Solicitar información</Button>
-                  </Link>
-                </CardFooter>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <CardTitle>Accesorios Adicionales</CardTitle>
-                  <CardDescription>
-                    Mejora tu experiencia con accesorios opcionales
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid gap-4 md:grid-cols-2 items-center">
-                    <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
-                      <Image
-                        src="/images/moto-accessories.jpg"
-                        alt="Accesorios Adicionales"
-                        width={500}
-                        height={300}
-                        className="object-cover h-full w-full"
-                      />
-                    </div>
-                    <div className="space-y-4">
-                      <p>
-                        Complementa tu pantalla con nuestros accesorios
-                        opcionales diseñados para mejorar tu experiencia. Desde
-                        fundas protectoras hasta soportes adicionales, tenemos
-                        todo lo que necesitas para personalizar tu instalación.
-                      </p>
-                      <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>Fundas protectoras resistentes</li>
-                        <li>Soportes adicionales para accesorios</li>
-                        <li>Cargadores USB adicionales</li>
-                        <li>Kits de iluminación LED</li>
-                        <li>Controles remotos inalámbricos</li>
                       </ul>
                     </div>
                   </div>

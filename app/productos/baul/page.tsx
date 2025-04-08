@@ -128,48 +128,6 @@ export default function BaulPage() {
                   </Link>
                 </CardFooter>
               </Card>
-              <Card>
-                <CardHeader>
-                  <CardTitle>Accesorios Adicionales</CardTitle>
-                  <CardDescription>
-                    Mejora la funcionalidad de tu baúl
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid gap-4 md:grid-cols-2 items-center">
-                    <div className="aspect-video overflow-hidden rounded-lg bg-gray-100">
-                      <Image
-                        src="/images/baul-accesorios.jpg"
-                        alt="Accesorios Adicionales"
-                        width={500}
-                        height={300}
-                        className="object-cover h-full w-full"
-                      />
-                    </div>
-                    <div className="space-y-4">
-                      <p>
-                        Complementa tu baúl eléctrico con nuestros accesorios
-                        adicionales diseñados para mejorar su funcionalidad y
-                        seguridad. Desde sensores adicionales hasta controles
-                        remotos extra, tenemos todo lo que necesitas para
-                        personalizar tu experiencia.
-                      </p>
-                      <ul className="list-disc list-inside space-y-2 text-sm">
-                        <li>Controles remotos adicionales</li>
-                        <li>Sensores de proximidad</li>
-                        <li>Kit de iluminación LED</li>
-                        <li>Protectores de goma</li>
-                        <li>Sistema de alarma integrado</li>
-                      </ul>
-                    </div>
-                  </div>
-                </CardContent>
-                <CardFooter>
-                  <Link href="/contacto">
-                    <Button>Solicitar información</Button>
-                  </Link>
-                </CardFooter>
-              </Card>
             </div>
           </div>
         </section>

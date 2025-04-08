@@ -70,12 +70,6 @@ export default function ContactoPage() {
                         </p>
                       </div>
                     </div>
-                    <div className="pt-4">
-                      <p className="text-sm font-medium">Contacto Directo</p>
-                      <p className="text-sm text-gray-500">
-                        John Gil - Gerente comercial
-                      </p>
-                    </div>
                   </CardContent>
                 </Card>
               </div>
@@ -83,20 +77,28 @@ export default function ContactoPage() {
                 <form className="space-y-4">
                   <div className="grid grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="first-name">Nombre</Label>
+                      <Label htmlFor="first-name" className="text-gray-900">
+                        Nombre
+                      </Label>
                       <Input id="first-name" placeholder="Tu nombre" />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="last-name">Apellido</Label>
+                      <Label htmlFor="last-name" className="text-gray-900">
+                        Apellido
+                      </Label>
                       <Input id="last-name" placeholder="Tu apellido" />
                     </div>
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="email">Email</Label>
+                    <Label htmlFor="email" className="text-gray-900">
+                      Email
+                    </Label>
                     <Input id="email" placeholder="tu@email.com" type="email" />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="phone">Teléfono</Label>
+                    <Label htmlFor="phone" className="text-gray-900">
+                      Teléfono
+                    </Label>
                     <Input
                       id="phone"
                       placeholder="Tu número de teléfono"
@@ -104,7 +106,9 @@ export default function ContactoPage() {
                     />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="message">Mensaje</Label>
+                    <Label htmlFor="message" className="text-gray-900">
+                      Mensaje
+                    </Label>
                     <Textarea
                       className="min-h-[150px]"
                       id="message"

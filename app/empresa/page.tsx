@@ -27,7 +27,7 @@ export default function EmpresaPage() {
               </div>
               <div className="mx-auto w-full max-w-[500px] aspect-video relative rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/company-image.jpg"
+                  src="/company.webp"
                   alt="OnRoad Solutions Empresa"
                   width={800}
                   height={500}
